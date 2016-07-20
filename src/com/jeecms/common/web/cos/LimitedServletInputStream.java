@@ -2,7 +2,6 @@ package com.jeecms.common.web.cos;
 
 import java.io.IOException;
 
-import javax.servlet.ReadListener;
 import javax.servlet.ServletInputStream;
 
 /**
@@ -106,21 +105,4 @@ public class LimitedServletInputStream extends ServletInputStream {
     return result;    
   }
 
-@Override
-public boolean isFinished() {
-	// TODO Auto-generated method stub
-	return false;
-}
-
-@Override
-public boolean isReady() {
-	// TODO Auto-generated method stub
-	return false;
-}
-
-@Override
-public void setReadListener(ReadListener readlistener) {
-	// TODO Auto-generated method stub
-	
-}
 }
